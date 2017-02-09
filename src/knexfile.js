@@ -29,7 +29,7 @@ module.exports = {
    * Ambiente de Testes e Homologação
    * @type {Object}
    */
-  test: {
+  container: {
     client: 'postgresql',
     connection: {
       host: 'postgresql',

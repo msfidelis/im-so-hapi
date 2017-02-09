@@ -14,8 +14,11 @@
     "bookshelf": "^0.10.3",
     "bookshelf-bcrypt": "^2.1.0",
     "bookshelf-uuid": "^1.0.0",
+    "boom": "^4.2.0",
     "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
     "joi": "^10.2.1",
+    "jsonwebtoken": "^7.2.1",
     "knex": "^0.12.6",
     "pg": "^6.1.2"
   }

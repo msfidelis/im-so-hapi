@@ -22,12 +22,14 @@ services:
     volumes:
       - ./data:/var/lib/postgresql
 
-  hapi:
-    restart: always
-    build: .
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./src/:/app/
-    links:
-      - postgresql
+  # hapi:
+  #   restart: always
+  #   build: .
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./src/:/app/
+  #   links:
+  #     - postgresql
+  #   environment:
+  #     - NODE_ENV=container
